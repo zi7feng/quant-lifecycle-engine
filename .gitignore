@@ -1,0 +1,91 @@
+# .NET build outputs
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+TestResults/
+coverage/
+*.trx
+
+# Rider / JetBrains
+.idea/
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.Secrets.json
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Local databases and data files
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+*.arrow
+
+# Generated trading data
+data/raw/**
+data/normalized/**
+data/exports/**
+data/reports/**
+data/backtest/**
+
+# Keep data directory structure
+!data/raw/.gitkeep
+!data/normalized/.gitkeep
+!data/exports/.gitkeep
+!data/reports/.gitkeep
+!data/backtest/.gitkeep
+
+# Generated reports and charts
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+*.pdf
+
+# Keep documentation images if needed
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!docs/**/*.svg
+!docs/**/*.pdf
+
+# Docker / local runtime
+docker-data/
+.tmp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
