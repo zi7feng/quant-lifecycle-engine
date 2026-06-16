@@ -53,18 +53,8 @@ logs/
 *.arrow
 
 # Generated trading data
-data/raw/**
-data/normalized/**
-data/exports/**
-data/reports/**
-data/backtest/**
-
-# Keep data directory structure
-!data/raw/.gitkeep
-!data/normalized/.gitkeep
-!data/exports/.gitkeep
-!data/reports/.gitkeep
-!data/backtest/.gitkeep
+data/**
+!data/.gitkeep
 
 # Generated reports and charts
 *.png
