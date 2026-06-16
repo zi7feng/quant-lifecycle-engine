@@ -62,23 +62,23 @@ QuantLifecycleEngine.Backtesting
 
 ### Checklist
 
-- [ ] Create `QuantLifecycleEngine.sln`.
-- [ ] Create `QuantLifecycleEngine.Host`.
-- [ ] Create `QuantLifecycleEngine.Domain`.
-- [ ] Create `QuantLifecycleEngine.Application`.
-- [ ] Create `QuantLifecycleEngine.Infrastructure`.
-- [ ] Create `QuantLifecycleEngine.Backtesting`.
-- [ ] Add all projects to the solution.
-- [ ] Configure project references.
+- [x] Create `QuantLifecycleEngine.sln`.
+- [x] Create `QuantLifecycleEngine.Host`.
+- [x] Create `QuantLifecycleEngine.Domain`.
+- [x] Create `QuantLifecycleEngine.Application`.
+- [x] Create `QuantLifecycleEngine.Infrastructure`.
+- [x] Create `QuantLifecycleEngine.Backtesting`.
+- [x] Add all projects to the solution.
+- [x] Configure project references.
 
 ### Acceptance Criteria
 
-- [ ] `dotnet build` succeeds.
-- [ ] Domain does not depend on Application, Infrastructure, or Backtesting.
-- [ ] Application depends on Domain.
-- [ ] Infrastructure depends on Application and Domain.
-- [ ] Host depends on Application and Infrastructure.
-- [ ] Backtesting depends on Application and Domain.
+- [x] `dotnet build` succeeds.
+- [x] Domain does not depend on Application, Infrastructure, or Backtesting.
+- [x] Application depends on Domain.
+- [x] Infrastructure depends on Application and Domain.
+- [x] Host depends on Application and Infrastructure.
+- [x] Backtesting depends on Application and Domain.
 
 ---
 
