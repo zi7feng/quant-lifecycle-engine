@@ -21,26 +21,26 @@ Create the monorepo structure for C#, Python, docs, contracts, data, infrastruct
 
 ### Checklist
 
-- [ ] Create `README.md`.
-- [ ] Create `docs/`.
-- [ ] Create `src/`.
-- [ ] Create `tests/`.
-- [ ] Create `python/`.
-- [ ] Create `contracts/`.
-- [ ] Create `data/`.
-- [ ] Create `infra/docker/`.
-- [ ] Create `scripts/`.
-- [ ] Create `.gitignore`.
-- [ ] Ensure generated data files are ignored by Git.
-- [ ] Document `main`, `dev`, and `feature/pbi-xxx` branch workflow.
+- [X] Create `README.md`.
+- [X] Create `docs/`.
+- [x] Create `src/`.
+- [x] Create `tests/`.
+- [x] Create `python/`.
+- [x] Create `contracts/`.
+- [x] Create `data/`.
+- [x] Create `infra/docker/`.
+- [x] Create `scripts/`.
+- [x] Create `.gitignore`.
+- [x] Ensure generated data files are ignored by Git.
+- [x] Document `main`, `dev`, and `feature/pbi-xxx` branch workflow.
 
 ### Acceptance Criteria
 
-- [ ] Repository contains all required top-level directories.
-- [ ] `data/` exists but generated data files are ignored.
-- [ ] `README.md` explains project purpose and runtime modes.
-- [ ] `docs/ROADMAP_INDEX.md` exists.
-- [ ] Branch workflow is documented.
+- [x] Repository contains all required top-level directories.
+- [x] `data/` exists but generated data files are ignored.
+- [x] `README.md` explains project purpose and runtime modes.
+- [x] `docs/ROADMAP_INDEX.md` exists.
+- [x] Branch workflow is documented.
 
 ---
 
