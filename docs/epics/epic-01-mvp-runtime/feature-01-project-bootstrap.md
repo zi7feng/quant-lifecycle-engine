@@ -90,20 +90,20 @@ Create test projects for domain, application, infrastructure, and backtesting.
 
 ### Checklist
 
-- [ ] Create `QuantLifecycleEngine.Domain.Tests`.
-- [ ] Create `QuantLifecycleEngine.Application.Tests`.
-- [ ] Create `QuantLifecycleEngine.Infrastructure.Tests`.
-- [ ] Create `QuantLifecycleEngine.Backtesting.Tests`.
-- [ ] Add test projects to the solution.
-- [ ] Add placeholder tests.
-- [ ] Confirm all tests can run locally.
+- [x] Create `QuantLifecycleEngine.Domain.Tests`.
+- [x] Create `QuantLifecycleEngine.Application.Tests`.
+- [x] Create `QuantLifecycleEngine.Infrastructure.Tests`.
+- [x] Create `QuantLifecycleEngine.Backtesting.Tests`.
+- [x] Add test projects to the solution.
+- [x] Add placeholder tests.
+- [x] Confirm all tests can run locally.
 
 ### Acceptance Criteria
 
-- [ ] `dotnet test` succeeds.
-- [ ] Each test project has at least one placeholder test.
-- [ ] Test project references are correct.
-- [ ] Tests do not require broker connection.
+- [x] `dotnet test` succeeds.
+- [x] Each test project has at least one placeholder test.
+- [x] Test project references are correct.
+- [x] Tests do not require broker connection.
 
 ---
 
