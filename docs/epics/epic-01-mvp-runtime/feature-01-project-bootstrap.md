@@ -115,17 +115,17 @@ Add Docker Compose foundation for optional local infrastructure.
 
 ### Checklist
 
-- [ ] Add `docker-compose.yml` at repository root.
-- [ ] Add `.dockerignore`.
-- [ ] Add `infra/docker/kafka/README.md`.
-- [ ] Use Compose profiles so Kafka is not started by default.
-- [ ] Document startup and shutdown commands.
-- [ ] Confirm MVP can run without Docker Compose.
+- [x] Add `docker-compose.yml` at repository root.
+- [x] Add `.dockerignore`.
+- [x] Add `infra/docker/kafka/README.md`.
+- [x] Use Compose profiles so Kafka is not started by default.
+- [x] Document startup and shutdown commands.
+- [x] Confirm MVP can run without Docker Compose.
 
 ### Acceptance Criteria
 
-- [ ] `docker compose config` succeeds.
-- [ ] Kafka services are disabled by default or clearly marked as enrichment-only.
-- [ ] README documents when Docker Compose is needed.
-- [ ] MVP backtest mode does not require Docker Compose.
-- [ ] MVP paper/live mode does not require Docker Compose.
+- [x] `docker compose config` succeeds.
+- [x] Kafka services are disabled by default or clearly marked as enrichment-only.
+- [x] README documents when Docker Compose is needed.
+- [x] MVP backtest mode does not require Docker Compose.
+- [x] MVP paper/live mode does not require Docker Compose.
