@@ -11,13 +11,17 @@ python/**/__pycache__
 python/**/*.pyc
 python/.ipynb_checkpoints
 
-data/raw
-data/normalized
-data/exports
-data/reports
-data/backtest
+data/**
+!data/.gitkeep
 
 *.log
 *.db
 *.sqlite
+*.sqlite3
 *.parquet
+*.feather
+*.arrow
+
+.env
+.env.*
+!.env.example
